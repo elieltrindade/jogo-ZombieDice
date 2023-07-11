@@ -1,16 +1,10 @@
 """
-Código criado por Eliel Martins da Trindade
-Análise e Desenvolvimento de Sistemas
 Disciplina Raciocinio Computacional
-"""
-"""
 Baseado no jogo de tabuleiro Zombie Dice da empresa Galapagos.
 """
 
-
 import random    # Função em que escolhe de formas aleatórias
 import sys       # Função para não pular linha
-
 
 # Função para mostrar o título mostra o Título do jogo
 def titulo():
@@ -18,11 +12,9 @@ def titulo():
         f'\n{" "*10}{" O":7}{"-" * 15}{"O//":>7}\n{" "*10}{" |= ":6}|{"ZOMBIE DICE":^15}|{"|":>4}\n{" "*10}{"/ / ":6} {"-" * 15} {"/ / ":>6}\n')
     print(f'{" "*10}{"UM JOGO PARA TODA FAMÍLIA":^30}')
 
-
 # Função para delimitar (Visual)
 def separador():
     print(f'\n {"-" * 100} \n')
-
 
 # função de Validação respostas sim ou não, retornando verdadeiro ou falso
 def validacao(a):
